@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import AlphaMessage from './components/AlphaMessage.vue'
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -9,6 +10,7 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      "home-features-before": () => h(AlphaMessage)
     })
   },
   enhanceApp({ app, router, siteData }) {

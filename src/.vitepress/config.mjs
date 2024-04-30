@@ -14,7 +14,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide' },
       { text: 'Docs', link: '/docs/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/examples/' }
     ],
 
     sidebar: [
@@ -28,11 +28,16 @@ export default defineConfig({
       },
       {
         text: 'Examples',
+        link: '/examples/',
+      },
+      /*
+      {
+        text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      }*/
     ],
 
     socialLinks: [
