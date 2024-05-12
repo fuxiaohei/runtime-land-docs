@@ -8,6 +8,8 @@ To get started, you need to a **Github account** to sign up. Go to [login page](
 
 ![guide-1-sign-in](/img/guide-1-sign-in.png)
 
+![guide-1-sign-in-2](/img/guide-1-sign-in-2.png)
+
 ## Step 2: Create a New Project
 
 A project is a function with a unique name. You can create a new project by clicking the "New Project" button on the top right corner of the page.

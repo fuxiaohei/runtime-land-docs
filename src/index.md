@@ -1,18 +1,20 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: "Runtime.land | Tiny Function-as-a-Service"
+titleTemplate: false
 
 hero:
   name: "Runtime.land"
   text: "Tiny Function-as-a-Service"
-  tagline: Develop locally, Deploy globally
+  tagline: Develop locally, Deploy distributedly
   image:
     src: /img/logo.png
     alt: Runtime.land
   actions:
     - theme: brand
       text: Try Now
-      link: https://dev.runtime.land
+      link: https://dash.runtime.land
     - theme: alt
       text: Getting Started
       link: /guide
