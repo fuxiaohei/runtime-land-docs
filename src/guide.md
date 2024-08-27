@@ -4,11 +4,9 @@ This is a guide to create new project for Runtime.land.
 
 ## Step 1: Sign In
 
-To get started, you need to a **Github account** to sign up. Go to [login page](/#) and click on the **Continue with Github** button. Then you will be redirect to Github to authorize the application. Click the "Authorize" button to connect your Github account with Runtime.land.
+To get started, you need to a **Github account** to sign up. Go to [login page](https://dash.runtime.land) and click on the **Continue with Github** button. Then you will be redirect to Github to authorize the application. Click the "Authorize" button to connect your Github account with Runtime.land.
 
 ![guide-1-sign-in](/img/guide-1-sign-in.png)
-
-![guide-1-sign-in-2](/img/guide-1-sign-in-2.png)
 
 ## Step 2: Create a New Project
 
@@ -16,7 +14,7 @@ A project is a function with a unique name. You can create a new project by clic
 
 ![guide-2-new-project](/img/guide-2-new-project.png)
 
-Choose a template and click **Edit Playground** to start creating new project with random name and editing the project code.
+Choose a template and click **Edit in Playground** to start creating new project with random name and editing the project code.
 
 ![guide-3-edit-playground](/img/guide-3-edit-playground.png)
 
