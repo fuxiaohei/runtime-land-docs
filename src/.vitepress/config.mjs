@@ -8,6 +8,9 @@ const topSidebar = () => [
   {
     text: 'Docs',
     link: '/docs/',
+    items: [
+      { text: 'JavaScript APIs', link: '/docs/js-api' },
+    ],
   },
   {
     text: 'Examples',
@@ -30,12 +33,19 @@ const docSidebar = () => [
   },
   {
     text: 'JavaScript APIs',
+    link: '/docs/js-api',
     collapsed: false,
     items: [
-      { text: 'Fetch API', link: '/docs/js-api/fetch-api' },
       { text: 'Web Standards', link: '/docs/js-api/web-standards' },
-      { text: 'Web Streams', link: '/docs/js-api/web-streams' },
+      { text: 'Console', link: '/docs/js-api/console' },
+      { text: 'Context', link: '/docs/js-api/context' },
+      { text: 'Environment', link: '/docs/js-api/environment' },
+      { text: 'Encoding', link: '/docs/js-api/encoding' },
+      { text: 'Fetch', link: '/docs/js-api/fetch' },
+      { text: 'Request/Response', link: '/docs/js-api/request-response' },
+      { text: 'Streams', link: '/docs/js-api/streams' },
       { text: 'Web Crypto', link: '/docs/js-api/web-crypto' },
+      { text: 'Performance and timers', link: '/docs/js-api/performance-timers' },
     ],
   },
 ]

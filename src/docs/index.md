@@ -10,6 +10,10 @@ Runtime.land is a platform for running serverless functions. It is designed to b
 Currently we only support **JavaScript/TypeScript**, but we are working on adding support for more languages.
 :::
 
+## JavaScript API
+
+Read full [JavaScript API](/docs/js-api/) documentation to learn more about the JavaScript API. Or you can learn examples below to get started.
+
 ## Hello World Example
 
 Create new project in the Runtime.land dashboard and add a new function with the following code:
@@ -40,6 +44,3 @@ export default {
 The API definition is similar to the [Cloudflare Workers](https://developers.cloudflare.com/workers/learning/how-workers-works) API. We will keep it compatible with Cloudflare Workers as much as possible with developing features in the future.
 :::
 
-## JavaScript API
-
-Read the [JavaScript API](/docs/js-api/) documentation to learn more about the JavaScript API.
